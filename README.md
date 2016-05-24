@@ -10,3 +10,7 @@ The Kinetis KL03P24M48SF0 ARM Cortex-M0+ microcontroller is used as the brain of
 
 * [Technical Data Sheet](KL03P24M48SF0-782281.pdf)
 * [Reference Manual](KL03P24M48SF0RM.pdf)
+
+The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configuration of the UHK.
+
+* [CAT24C256 256 kb I2C CMOS Serial EEPROM data sheet](CAT24C256-D.pdf)
