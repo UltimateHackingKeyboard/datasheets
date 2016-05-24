@@ -23,6 +23,10 @@ The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED d
 
 ## Add-on modules
 
+A BlackBerry trackball is used in the key cluster module. Even though this trackball doesn't seem to have any datasheets available, SparkFun sells a breakout board featuring this trackball, so we use their design as our reference design.
+
+* [SparkFun Blackberry Trackballer Breakout](https://www.sparkfun.com/products/13169)
+
 The ADNS-3530 optical sensor is used in the trackball module.
 
 * [ADNS-3530 Low Power LED Integrated Slim Mouse Sensor data sheet](ADNS-3530.pdf)
