@@ -42,5 +42,5 @@ The IQS572 capacitive sensing controller is used in the touchpad module.
 The trackpoint within our trackpoint module is unknown, and the label of the IC is scraped off, but it's probably the SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder. We believe this because the trackpoint closely resembles the SK8702 FlexPointTM 3 Axis PS/2 Pointing Stick Module, which uses this IC.
 
 * [The incomplete datasheet of the trackpoint](trackpoint/trackpoint_module.pdf) - Our supplier didn't provide us the name or complete datasheet of the trackpoint because he signed an NDA with the manufacturer.
-* [SK8702 FlexPointTM 3 Axis PS/2 Pointing Stick Module](trackpoint/DS0013_SK8702_Datasheet.pdf) - No longer in production.
-* [SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder ](trackpoint/DS0006 SK7102 Datasheet.pdf) - The IC of the SK8702, and probably the trackpoint, too.
+* [SK8702 FlexPointTM 3 Axis PS/2 Pointing Stick Module](trackpoint/DS0013_SK8702_Datasheet.pdf) - No longer in production but this documentation may come in handy.
+* [SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder ](trackpoint/DS0006 SK7102 Datasheet.pdf) - The IC of the SK8702, and probably the unknown trackpoint, too.
