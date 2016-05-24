@@ -18,3 +18,7 @@ The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configu
 The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED display and per switch backlighting.
 
 * [IS31FL3731 I2C Audio Modulated Matrix LED Driver data sheet](31FL3731.pdf)
+
+The ADNS-3530 optical sensor is used in the trackball module.
+
+* [ADNS-3530 Low Power LED Integrated Slim Mouse Sensor data sheet](ADNS-3530.pdf)
