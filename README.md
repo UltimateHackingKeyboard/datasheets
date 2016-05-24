@@ -15,6 +15,6 @@ The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configu
 
 * [CAT24C256 256 kb I2C CMOS Serial EEPROM data sheet](CAT24C256-D.pdf)
 
-The IS31FL3731 I2C LED driver is used to drive the LED display and per switch backlighting.
+The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED display and per switch backlighting.
 
 * [IS31FL3731 I2C Audio Modulated Matrix LED Driver data sheet](31FL3731.pdf)
