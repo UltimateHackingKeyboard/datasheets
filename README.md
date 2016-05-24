@@ -22,3 +22,10 @@ The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED d
 The ADNS-3530 optical sensor is used in the trackball module.
 
 * [ADNS-3530 Low Power LED Integrated Slim Mouse Sensor data sheet](ADNS-3530.pdf)
+
+Our custom touchpad module will be powered by the IQS572 capacitive sensing controller.
+
+* [IQS5xx-A000 Trackpad Datasheet](trackpad/iqs5xx-a000_trackpad_datasheet.pdf)
+* [AZD067 Application Note: IQS5xx Trackpad Communication Interface](trackpad/azd067_iqs5xx_trackpad_communication_interface.pdf)
+* [AZD068 Application Note: Trackpad Design Guide](trackpad/azd068-trackpad_design_guide.pdf)
+* [AZD070 Application Note: IQS5xx Programming and GUI (data streaming) Guide](trackpad/azd070_iqs5xx_programming_and_data_streaming_guide.pdf)
