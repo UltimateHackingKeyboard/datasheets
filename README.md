@@ -5,13 +5,13 @@ This repository contains the datasheets of the ICs used in the [Ultimate Hacking
 ## Base keyboard
 
 The Kinetis K22P121M120SF7 ARM Cortex-M4 microcontroller is used as the brain of the right keyboard half.
-* [Technical Data Sheet](K22P121M120SF7.pdf)
-* [Reference Manual](K22P121M120SF7RM.pdf)
+* [K22P121M120SF7 Technical Data Sheet](K22P121M120SF7.pdf)
+* [K22P121M120SF7 Reference Manual](K22P121M120SF7RM.pdf)
 
 The Kinetis KL03P24M48SF0 ARM Cortex-M0+ microcontroller is used as the brain of the left keyboard half, and of the add-on modules.
 
-* [Technical Data Sheet](KL03P24M48SF0-782281.pdf)
-* [Reference Manual](KL03P24M48SF0RM.pdf)
+* [KL03P24M48SF0 Technical Data Sheet](KL03P24M48SF0-782281.pdf)
+* [KL03P24M48SF0 Reference Manual](KL03P24M48SF0RM.pdf)
 
 The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configuration of the UHK.
 
