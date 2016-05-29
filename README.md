@@ -21,6 +21,10 @@ The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED d
 
 * [IS31FL3731 I2C Audio Modulated Matrix LED Driver data sheet](31FL3731.pdf)
 
+A custom LED segment display is used in the left keyboard half.
+
+* [Custom LED segment display schematic](led-display.png)
+
 ## Add-on modules
 
 A BlackBerry trackball is used in the key cluster module. Even though this trackball doesn't seem to have any datasheets available, SparkFun sells a breakout board that features it, so we use their design as our reference design.
