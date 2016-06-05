@@ -27,7 +27,7 @@ A custom LED segment display is used in the left keyboard half.
 
 ## Add-on modules
 
-A BlackBerry trackball is used in the key cluster module. Even though this trackball doesn't seem to have any datasheets available, SparkFun sells a breakout board that features it, so we use their design as our reference design.
+A BlackBerry trackball is used in the key cluster module. Even though this trackball doesn't seem to have any datasheets available, SparkFun sells a BlackBerry trackball breakout board, so we use their design as our reference design.
 
 * [SparkFun Blackberry Trackballer Breakout](https://www.sparkfun.com/products/13169)
 
