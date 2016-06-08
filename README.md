@@ -19,11 +19,12 @@ The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configu
 
 The IS31FL3731 I2C LED driver is used in both keyboard halves to drive the LED display and per switch backlighting.
 
-* [IS31FL3731 I2C Audio Modulated Matrix LED Driver data sheet](31FL3731.pdf)
+* [IS31FL3731 I2C Audio Modulated Matrix LED Driver data sheet](leds/31FL3731.pdf)
+* [IS31FL3731 I2C Audio Modulated Matrix LED Driver application note](leds/IS31FL3731 Application Note Rev.C.pdf)
 
 A custom LED segment display is used in the left keyboard half.
 
-* [Custom LED segment display schematic](led-display.png)
+* [Custom LED segment display schematic](leds/led-display.png)
 
 ## Add-on modules
 
