@@ -28,13 +28,19 @@ A custom LED segment display is used in the left keyboard half.
 
 ## Add-on modules
 
+### Mini trackball
+
 A BlackBerry trackball is used in the key cluster module. Even though this trackball doesn't seem to have any datasheets available, SparkFun sells a BlackBerry trackball breakout board, so we use their design as our reference design.
 
 * [SparkFun Blackberry Trackballer Breakout](https://www.sparkfun.com/products/13169)
 
+### Trackball
+
 The ADNS-3530 optical sensor is used in the trackball module.
 
 * [ADNS-3530 Low Power LED Integrated Slim Mouse Sensor data sheet](ADNS-3530.pdf)
+
+### Touchpad
 
 The IQS572 capacitive sensing controller is used in the touchpad module.
 
@@ -43,6 +49,8 @@ The IQS572 capacitive sensing controller is used in the touchpad module.
 * [AZD067 Application Note: IQS5xx Trackpad Communication Interface](trackpad/azd067_iqs5xx_trackpad_communication_interface.pdf)
 * [AZD068 Application Note: Trackpad Design Guide](trackpad/azd068-trackpad_design_guide.pdf)
 * [AZD070 Application Note: IQS5xx Programming and GUI (data streaming) Guide](trackpad/azd070_iqs5xx_programming_and_data_streaming_guide.pdf)
+
+### Trackpoint
 
 The part number of the trackpoint within our trackpoint module is unknown, and the label of the IC is scraped off, but it's probably the SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder. We believe this because the trackpoint closely resembles the SK8702 FlexPointTM 3 Axis PS/2 Pointing Stick Module, which uses this IC.
 
