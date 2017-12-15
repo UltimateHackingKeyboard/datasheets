@@ -56,4 +56,4 @@ The part number of the trackpoint within our trackpoint module is unknown, and t
 
 * [The incomplete datasheet of the trackpoint](trackpoint/trackpoint_module.pdf) - Our supplier didn't provide us the name or complete datasheet of the trackpoint because he signed an NDA with the manufacturer.
 * [SK8702 FlexPointTM 3 Axis PS/2 Pointing Stick Module](trackpoint/DS0013_SK8702_Datasheet.pdf) - No longer in production but this documentation may come in handy.
-* [SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder ](trackpoint/DS0006_SK7102_Datasheet.pdf) - The IC of the SK8702, and probably of the unknown trackpoint, too.
+* [SK7102 FlexPointTM PS/2 Pointing Stick Mouse Encoder ](trackpoint/DS0006%20SK7102%20Datasheet.pdf) - The IC of the SK8702, and probably of the unknown trackpoint, too.
