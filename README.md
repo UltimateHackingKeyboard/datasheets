@@ -5,13 +5,13 @@ This repository contains the datasheets of the ICs used in the [Ultimate Hacking
 ## Base keyboard
 
 The Kinetis K22P121M120SF7 ARM Cortex-M4 microcontroller is used as the brain of the right keyboard half.
-* [K22P121M120SF7 Technical Data Sheet](K22P121M120SF7.pdf)
-* [K22P121M120SF7 Reference Manual](K22P121M120SF7RM.pdf)
+* [K22P121M120SF7 Technical Data Sheet](mcu/K22P121M120SF7.pdf)
+* [K22P121M120SF7 Reference Manual](mcu/K22P121M120SF7RM.pdf)
 
 The Kinetis KL03P24M48SF0 ARM Cortex-M0+ microcontroller is used as the brain of the left keyboard half, and of the add-on modules.
 
-* [KL03P24M48SF0 Technical Data Sheet](KL03P24M48SF0-782281.pdf)
-* [KL03P24M48SF0 Reference Manual](KL03P24M48SF0RM.pdf)
+* [KL03P24M48SF0 Technical Data Sheet](mcu/KL03P24M48SF0-782281.pdf)
+* [KL03P24M48SF0 Reference Manual](mcu/KL03P24M48SF0RM.pdf)
 
 The CAT24C256 I2C EEPROM is used in the right keyboard half to store the configuration of the UHK.
 
@@ -44,11 +44,11 @@ The ADNS-3530 optical sensor is used in the trackball module.
 
 The IQS572 capacitive sensing controller is used in the touchpad module.
 
-* [IQS5xx-A000 Trackpad Datasheet](trackpad/iqs5xx-a000_trackpad_datasheet.pdf)
-* [IQS5xx Reference Design](trackpad/iqs5xx_reference_designs/IQS5xx.pdf)
-* [AZD067 Application Note: IQS5xx Trackpad Communication Interface](trackpad/azd067_iqs5xx_trackpad_communication_interface.pdf)
-* [AZD068 Application Note: Trackpad Design Guide](trackpad/azd068-trackpad_design_guide.pdf)
-* [AZD070 Application Note: IQS5xx Programming and GUI (data streaming) Guide](trackpad/azd070_iqs5xx_programming_and_data_streaming_guide.pdf)
+* [IQS5xx-A000 Trackpad Datasheet](touchpad/iqs5xx-a000_trackpad_datasheet.pdf)
+* [IQS5xx Reference Design](touchpad/iqs5xx_reference_designs/IQS5xx.pdf)
+* [AZD067 Application Note: IQS5xx Trackpad Communication Interface](touchpad/azd067_iqs5xx_trackpad_communication_interface.pdf)
+* [AZD068 Application Note: Trackpad Design Guide](touchpad/azd068-trackpad_design_guide_2016.pdf)
+* [AZD070 Application Note: IQS5xx Programming and GUI (data streaming) Guide](touchpad/azd070_iqs5xx_programming_and_data_streaming_guide.pdf)
 
 ### Trackpoint
 
