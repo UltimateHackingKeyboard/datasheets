@@ -1,0 +1,49 @@
+Please find the registers below for the idle time setting.
+
+Timing will have 20% variation due to the chip design.
+
+Downshift:
+RUN_DOWNSHIFT (Reg0x13) - Run to Rest1:
+Pos mode rate x 8
+Default value: 0x14
+
+REST1_DOWNSHIFT (Reg0x15) - Rest1 to Rest2:
+Rest1 Rate x 10
+Default value: 0x1F
+
+REST2_DOWNSHIFT (Reg0x17) - Rest2 to Rest3:
+Rest2 Rate x 128
+Default value: 0x17
+
+REST_RATE:
+REST1_RATE (Reg0x14)
+Multiples of 10msec
+Default value: 0x01
+
+REST2_RATE (Reg0x16)
+Multiples of 10msec
+Default value: 0x09
+
+REST3_RATE (Reg0x18)
+Multiples of 10msec
+Default value: 0x31
+
+Example:
+Assume current frame rate is 500fps, equal to 2ms(please to get the value by measuring the LED pulsing frequency in RUN mode since sensor frame rate is auto-adjusting )
+Set Reg0x13 =100d
+-->Run_downshift: 100*2ms*8=1600ms
+
+Set Reg0x14 =10d
+-->Rest1 rate(Rest1 period): (10+1)*10=88ms
+
+Set Reg0x15 = 100d
+-->Rest1_downshift: 100*88ms*10=88000ms
+
+Set Reg0x16 =10d
+-->Rest2 rate(Rest2 period): (10+1)*10=88ms
+
+Set Reg0x17=100d
+-->Rest2_downshift: 100*88000ms*128=1126400000ms
+
+Set Reg0x18 =10d
+-->Rest3 rate(Rest3 period): (10+1)*10=88ms
